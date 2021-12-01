@@ -12,7 +12,6 @@ interface Artist {
 }
 
 
-
 interface Album {
     id: number;
     title: string;
@@ -25,6 +24,7 @@ interface Album {
     tracklist: string;
     type: string;
 }
+
 
 interface Song {
     id: number;
@@ -44,6 +44,7 @@ interface Song {
     album: Album;
     type: string;
 }
+
 
 
 export default Song;

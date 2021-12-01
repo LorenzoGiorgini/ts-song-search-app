@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 
 import Song from "../types/song";
 
-function SingleSong({ song }: { song: Song }) {
+interface ISingleSong {
+  song: Song;
+}
+
+function SingleSong({ song }: ISingleSong) {
   return (
     <Col xs={12} sm={6} lg={2}>
       <Card>
