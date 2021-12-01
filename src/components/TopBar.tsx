@@ -6,6 +6,7 @@ interface SearchType {
   fetchSongs: (search: string) => void;
 }
 
+
 function TopBar({setSearch, search , fetchSongs} : SearchType) {
   return (
     <Navbar bg="light" expand="lg">
