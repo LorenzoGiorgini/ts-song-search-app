@@ -1,1 +1,1 @@
-# Simple boilerplate to create a typescript react app
+# Practicing a bit with typescript , types and typescript react app
